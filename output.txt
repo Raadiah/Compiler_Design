@@ -1,0 +1,38 @@
+Variable _myVar declared
+Variable _newVar declared
+Duplicate declaration of variable _newVar
+Value Assigned
+Value Assigned
+Variable _sum declared
+Value Assigned
+_sum value is: 13
+LAST_IF
+LAST_ELSE
+Inside IF 
+Inside SINGLE IF 
+SINGLE IF condition not true
+Inside SINGLE IF 
+SUM_LOOP
+Value Assigned
+I am here
+Value INITIALIZED.. Entering into loop
+Loop ENDED.. Value: 9
+Loop Ended Successfully. Total loop count: 6
+Value INITIALIZED.. Entering into loop
+Loop ENDED.. Value: 3
+Loop Ended Successfully. Total loop count: 0
+DONE
+Inside loop
+Inside loop
+CASE_ONE
+CASE_TWO
+Currently in case number 2
+CASE_FOUR
+INSIDE_DEFAULT_CASE
+CASE_ONE
+CASE_FOUR
+INSIDE_DEFAULT_CASE
+Inside default case.
+CASE_ONE
+CASE_FOUR
+Compiled Successfully

@@ -1,0 +1,51 @@
+**
+INTEGER _myVar
+INTEGER _newVar
+INTEGER _newVar
+_myVar : 2
+_newVar :3
+INTEGER _sum
+ 
+CONDITION _myVar <=3 ( CONDITION _myVar > 5( CONDITION _myVar =2 ( _sum: _myVar + _newVar * 3 + 2
+								  ECHO _sum	
+								CONDITION _myVar > 1 ( ECHO LAST_IF
+											) OTHERWISE (ECHO LAST_ELSE
+												     )
+								  )
+					   )
+			)
+
+ECHO SUM_LOOP
+_sum : 4 * 5
+
+WHEN (_sum : 3 INC TILL 8) REPEAT ( WHEN (_sum : 9 DEC TILL 3) REPEAT (ECHO DONE
+								    )
+
+		)
+
+SWITCH _myVar (CASE 1 (ECHO CASE_ONE
+)
+CASE 2 (ECHO CASE_TWO
+)
+CASE 4 (ECHO CASE_FOUR
+)
+DEFAULT (ECHO INSIDE_DEFAULT_CASE
+)
+)
+
+
+SWITCH _myVar (CASE 1 (ECHO CASE_ONE
+)
+CASE 4 (ECHO CASE_FOUR
+)
+DEFAULT (ECHO INSIDE_DEFAULT_CASE
+)
+)
+
+SWITCH _myVar (CASE 1 (ECHO CASE_ONE
+)
+CASE 4 (ECHO CASE_FOUR
+)
+)
+
+##
